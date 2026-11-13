@@ -4,31 +4,35 @@ Repository URL:
 
 ## Tools
 
-| Item | Version or name |
-| --- | --- |
-| JDK | |
-| Maven | |
-| IDE | |
-| AI tool and exact model, if you used one | |
+| Item                                     | Version or name |
+| ---------------------------------------- | --------------- |
+| JDK                                      |                 |
+| Maven                                    |                 |
+| IDE                                      |                 |
+| AI tool and exact model, if you used one |                 |
 
 ## Part 0. From a store in memory to H2
 
-Commit of the starter, before any change:
+Commit of the starter, before any change: 4502ef5 (HEAD -> main, origin/main) Starter code
 
-0.3 Your prediction for `staff`, written before the second run:
+0.3 Your prediction for `staff`, written before the second run: no stored parcels, Free lockers: 3
 
 Output of the second run, for `staff` and `quit`:
 
 ```text
-
+> staff
+Free lockers: 3
+> quit
 ```
 
 State in one sentence where you think the parcels of the first run were kept.
 
+In runtime memory.
+
 0.5 The line of Main that you would change to keep the parcels somewhere else:
 
 ```java
-
+ParcelRepository repository = new InMemoryParcelRepository();
 ```
 
 0.6 Commit of the switch to H2:
@@ -109,5 +113,5 @@ Explain why the last lifeline is the interface ParcelRepository rather than H2Pa
 ## AI usage declaration
 
 | AI tool and exact model | Date | Purpose | Files or answers it produced or changed | How you checked its output |
-| --- | --- | --- | --- | --- |
-| | | | | |
+| ----------------------- | ---- | ------- | --------------------------------------- | -------------------------- |
+|                         |      |         |                                         |                            |
